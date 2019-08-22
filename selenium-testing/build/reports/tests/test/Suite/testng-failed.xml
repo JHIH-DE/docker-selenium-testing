@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]" parallel="tests">
+  <test name="SafariTest(failed)" parallel="tests">
+    <parameter name="browser" value="safari"/>
+    <classes>
+      <class name="SecondTest">
+        <methods>
+          <include name="setupTest"/>
+          <include name="terminate"/>
+          <include name="ThoughtWorksTest"/>
+          <include name="MyntraTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- SecondTest -->
+    </classes>
+  </test> <!-- SafariTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite  name="Suite" parallel="tests" thread-count="2">
+    <test name="ChromeTest">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <!--<class name="FirstTest"/>-->
+            <class name="SecondTest"/>
+            <!--<class name="IKMTest"/>-->
+        </classes>
+    </test>
+
+    <test name="FirefoxTest">
+        <parameter name="browser" value="firefox"/>
+        <classes>
+            <!--<class name="FirstTest"/>-->
+            <class name="SecondTest"/>
+            <!--<class name="IKMTest"/>-->
+        </classes>
+    </test>
+
+    <test name="SafariTest">
+        <parameter name="browser" value="safari"/>
+        <classes>
+            <class name="SecondTest"/>
+        </classes>
+    </test>
+</suite>
