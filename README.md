@@ -1,3 +1,4 @@
+
 # 基於Docker 構建Selenium Grid 分佈式測試環境
 使用Docker在單台機器上運行Selenium Grid的簡單解決方案。
 
@@ -45,8 +46,8 @@ TestNG是什麼？
 Selenium Web Console. [Selenium-hub]( http://localhost:4444/grid/console)
 
     http://localhost:4444/grid/console      
-
-##Setting up Selenium WebDriver (本機執行使用)
+####
+## Setting up Selenium WebDriver (本機執行使用)
 
  Safari (適用 Safari 10, 提供原生支持):
 > 1.Safari的驅動程序可通過/usr/bin/safaridriver可執行文件啟動  
@@ -57,8 +58,7 @@ Selenium Web Console. [Selenium-hub]( http://localhost:4444/grid/console)
  Chrome:
 > [下載]( https://sites.google.com/a/chromium.org/chromedriver/downloads)  
 
-##
-
+####
 ## Runs the TestCase
 測試專案執行(自動完成編譯，並執行測試案例):
 
