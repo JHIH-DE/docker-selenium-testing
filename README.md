@@ -4,7 +4,7 @@
 
 以下是使用Docker設置Selenium Grid的基本步驟。 如下圖所示，有一個Selenium-hub Image分別連接到Chrome和Firefox的兩個節點Image，我們將通過代碼和幾個Docker命令進行模擬。
 
-[![Alt text](https://miro.medium.com/max/2628/1*FJxEVsHJ6WCHtA96xtz8-w.png)](https://miro.medium.com/max/2628/1*FJxEVsHJ6WCHtA96xtz8-w.png)
+[![Alt text](https://i.imgur.com/74xc1W4.png)](https://i.imgur.com/74xc1W4.png)
 
 ####
 ## 介紹
